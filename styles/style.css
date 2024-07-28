@@ -1,0 +1,178 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #eee6df;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  
+}
+
+.links{
+  list-style: none;
+  text-decoration: none;
+  display: none;
+}
+
+.links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.links li a  {
+  transition: all 0.3s ease 0s;
+}
+
+.links li a:hover  {
+  color: red;
+}
+
+a{
+  text-decoration: none;
+  color: #523d2a;
+  font-weight: bold;
+
+}
+
+/* Hook */
+
+.Hook{
+  height: auto;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Hook-wrap{
+  height: 600px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Title{
+  margin-bottom: 2rem;
+  color: #523d2a;
+}
+
+.hook-para{
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* card */
+
+.WhyU{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  
+}
+.card{
+  width: 324px;
+  margin: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-content{
+  padding: 16px;
+  text-align: center;
+}
+.card-content h2{
+  font-size: 28px;
+  margin-bottom: 8px;
+
+}
+.card-p{
+  text-align: center;
+  margin-top: 15px;
+}
+.card-subtitle{
+  text-align: center;
+  color: #523d2a;
+}
+
+.icon{
+  width: 48px;
+  height: 48px;
+  text-align: center;
+}
+
+.Hook-wrap{
+  background-image: url(/Background.jpg);
+}
+
+.classic{
+  width: 100px;
+  height: 40px;
+  border: 3px solid #523d2a;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: .8em;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.classic:hover {
+  background: #523d2a;
+  color: white;
+  font-size: 1em;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .links{
+    display: none;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .links{
+    display: inline;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+}
+
+/* xlg */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
